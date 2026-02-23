@@ -28,7 +28,7 @@ class VoiceAgentGui:
         self.text_display = tk.Text(self.root, height=10, width=80)
         self.text_display.pack(pady=5)
 
-        self.text_summary_display = tk.Text(self.root, height=10, width=80, bg="#f0f0f0")
+        self.text_summary_display = tk.Text(self.root, height=10, width=80)
         self.text_summary_display.pack(pady=5)
 
         self.recording = False
