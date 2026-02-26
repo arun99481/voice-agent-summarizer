@@ -126,4 +126,3 @@ if __name__ == "__main__":
     # Ensure you pass your 'app' variable here
     gui = VoiceAgentGui(langgraph_app=app)
     gui.root.mainloop()
-    # pass
